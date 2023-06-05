@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    header {
+      background-color: cornflowerblue;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 50px ;
+    }
+
+    .logo {
+      font-size: 30px;
+      color: white;
+    }
+
+    nav ul {
+      display: inline-block;
+    }
+
+    nav ul li {
+      list-style: none;
+    }
+
+    nav ul li a {
+      font-size: 17px;
+      color: white;
+      text-decoration: none;
+      padding: 0 10px;
+      transition: all .2s  ease;
+    }
+
+    nav ul li a:hover {
+      color: darkblue;
+    }
+
+    .btn {
+      color: white;
+      text-decoration: none;
+       padding: 5px 20px;
+       margin: 5px;
+       text-transform: capitalize;
+       border-radius: 10vh;
+       transition: all 0.2s ease;
+    }
+
+    .btn-1 {
+      background-color: darkblue;
+      border: 2px solid transparent;
+    }
+
+    .btn-1:hover {
+      border: 2px solid darkblue;
+      background-color: transparent;
+
+    }
+
+    .btn-2 {
+      border: 2px solid darkblue;
+    }
+
+    .btn-2:hover {
+      background-color: darkblue;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Light Code</div>
+
+    <nav>
+      <ul><li><a href="#">Home</a></li></ul>
+      <ul><li><a href="#">About</a></li></ul>
+      <ul><li><a href="#">Cart</a></li></ul>
+      <ul><li><a href="#">Log in</a></li></ul>
+    </nav>
+
+    <div class="button">
+      <a href="#" class="btn btn-1">Learn More</a>
+      <a href="#" class="btn btn-2">Book Now</a>
+    </div>
+  </header>
+  
+</body>
+</html>
